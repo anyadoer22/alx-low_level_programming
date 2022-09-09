@@ -2,9 +2,9 @@
 
 /**
  *main - The basic function
- * 
+ *
  *Return: 0
- * 
+ *
  **/
 int main(void)
 {
@@ -17,6 +17,6 @@ int main(void)
 	{
 	putchar(alpha);
 	}
-	putchar('\n');     
+	putchar('\n');
 	return (0);
 }
