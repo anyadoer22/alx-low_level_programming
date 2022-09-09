@@ -9,15 +9,17 @@
  */
 int main(void)
 {
-	char alpha;
+	int n;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (n = 0; n <= 9; n++)
 	{
-	putchar(alpha);
+	putchar((n % 10) + '0');
+	if (n == 9)
+	{
+	continue;
 	}
-	for (alpha = 'A'; alpha <= 'Z'; alpha++)
-	{
-	putchar(alpha);
+	putchar(',');
+	putchar(' ');
 	}
 	putchar('\n');
 	return (0);

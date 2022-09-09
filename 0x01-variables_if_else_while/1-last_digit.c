@@ -2,31 +2,30 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - starting point
-*
-*Return: 0
-*
-*/
+ * main - The basic function
+ *
+ * Return: 0
+ *
+ */
 int main(void)
 {
 	int n;
-	int l;
+	int d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 10;
-	if (l > 5)
+	d = n % 10;
+	if (d > 5)
 	{
-	printf("Last digit of %d is %d and is greater than 5\n", n, l);
+	printf("Last digit of %d is %d and is greater than 5\n", n, d);
 	}
-	else if (l == 0)
+	else if (d == 0)
 	{
-	printf("Last digit of %d is %d and is 0\n", n, l);
+	printf("Last digit of %d is %d and is 0\n", n, d);
 	}
-	else if (l < 6 && l != 0)
+	else if (d < 6 && d != 0)
 	{
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, d);
 	}
 	return (0);
 }
-

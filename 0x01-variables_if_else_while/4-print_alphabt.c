@@ -13,10 +13,10 @@ int main(void)
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-	putchar(alpha);
-	}
-	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+	if (alpha == 'q' || alpha == 'e')
 	{
+	continue;
+	}
 	putchar(alpha);
 	}
 	putchar('\n');

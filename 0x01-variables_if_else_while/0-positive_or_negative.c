@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - My starting point
+ * main - Starting point
  *
  * Return: 0
  *
