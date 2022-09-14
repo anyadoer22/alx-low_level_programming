@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.c"
+#include "mian.h"
 /**
  *
  *main - Entry point.
