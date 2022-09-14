@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabet_x10 - prints 10x the alphabet in lowercase
  *
@@ -8,6 +9,7 @@ void print_alphabet_x10(void)
 {
 	int count = 0;
 	char letter;
+
 	for (n = 1; n <= 10; n++)
 	{
 	for (strt = 97; strt < 123; strt++)

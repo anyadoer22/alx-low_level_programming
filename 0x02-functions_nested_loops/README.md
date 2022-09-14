@@ -1,1 +1,1 @@
-#!/bin/bash
+Training exercise on nested loops
