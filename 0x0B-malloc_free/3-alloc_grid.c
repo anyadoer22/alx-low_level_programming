@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * alloc_grid - returns the ointer to a two dimensional array of integers
  * @width: width of the array
@@ -10,11 +9,10 @@
 int **alloc_grid(int width, int height)
 {
 	int **gridout;
-
 	int i, j;
 
 	if (width < 1 || height < 1)
-				return (NULL);
+	return (NULL);
 	gridout = malloc(height * sizeof(int *));
 	if (gridout == NULL)
 	{
