@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * _strdup - copy a string to a newly allocated space inmemory
  * @str: string to copy
@@ -9,8 +8,8 @@
 char *_strdup(char *str)
 {
 	unsigned int i, j;
-
 	char *s;
+
 	if (str == NULL)
 	return (NULL);
 	for (i = 0; str[i]; i++)
