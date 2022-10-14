@@ -2,6 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 #include <stdbool.h>
+
 /**
  * print_all - Function that prints anything
  *
