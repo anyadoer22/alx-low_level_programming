@@ -6,7 +6,6 @@ section .text
 extern printf
 global main
 
-
 main:
 push	rbp
 mov	rsi, msg
